@@ -18,5 +18,5 @@
 18. git checkout applied_math
 19. git add . → git commit -m “added physics.txt” → git push origin applied_math. If you switched back to your original branch before committing these changes, the applied_math branch in the remote repo would be missing physics.txt
 20. git branch
-21. git checkout
+21. git checkout main
 22. git merge main
