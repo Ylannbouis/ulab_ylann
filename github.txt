@@ -1,0 +1,22 @@
+1. pwd
+2. ls (patterns.txt and symmetry.py should be listed)
+3. nano patterns.txt
+4. cat patterns.txt
+5. diff patterns.txt symmetry.txt
+6. mv patterns.txt -/math/calculus
+7. rm -/math/geometry/triangle.txt
+8. cd ../math
+9. git init
+10. git remote add origin git@github.com:ylannbouis/math.git (assuming you created a remote repository already called math)
+11. cp -/music/symmetry.txt .
+12. git status. Git is not currently tracking symmetry.txt because we have not added it to the staging area yet.
+13. git add symmetry.txt   git add .
+14. Git is now tracking symmetry.txt since it is in the staging area. Bonus: git restore --staged symmetry.txt
+15. git commit -m “added symmetry.txt”
+16. git push origin main. You should be pushing to main because it is the current branch you’re working in. 
+17. git branch applied_math
+18. git checkout applied_math
+19. git add . → git commit -m “added physics.txt” → git push origin applied_math. If you switched back to your original branch before committing these changes, the applied_math branch in the remote repo would be missing physics.txt
+20. git branch
+21. git checkout
+22. git merge main
